@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:22
 
 WORKDIR /src
 
@@ -9,4 +9,3 @@ RUN npm install --verbose
 EXPOSE 9000
 
 CMD ["node", "index.js"]
-
